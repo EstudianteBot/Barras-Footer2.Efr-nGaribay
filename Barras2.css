@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px;
+}
+
+/* Menu de navigacion */
+body {
+    background: #ffffff;
+}
+
+body .MenuPrincipal {
+    align-items: center;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 8px;
+    padding-top: 0px;
+    padding-left: 48px;
+}
+
+body .MenuPrincipal .Logo {
+    border-radius: 5px;
+}
+
+body .MenuPrincipal .Logo h4 {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .MenuPrincipal .MenuItems {
+    display: flex;
+    width: 670px;
+}
+
+body .MenuPrincipal .MenuItems .Items{
+    color: black;
+    display: flex;
+    width: 500px;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    font-size: large;
+    padding: 20px 24px;
+    padding-inline: 0px;
+    padding-right: 48px;
+}
+
+body .MenuPrincipal .MenuItems .Button {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .MenuPrincipal .MenuItems .Button > span {
+    padding: 0px 12px;
+}
+
+body .MenuPrincipal .MenuItems .Button .Boton1 {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px 32px;
+}
+
+body .MenuPrincipal .MenuItems .Button .Boton1:hover {
+    background: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+body .Footer {
+    background: black;
+    color: #ffffff;
+    display: flex;
+    height: 340px;
+    padding: 40px 200px;
+}
+
+body .Footer .Contenido {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+}
+
+body .Footer .Contenido .Logo {
+    align-items: start;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+body .Footer .Contenido .Logo h4 {
+    background: rgb(92, 92, 92);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: x-large;
+    padding: 8px 44px;
+}
+
+body .Footer .Contenido > p {
+    text-align: center;
+    font-size: small;
+    padding: 0px 440px;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+body .Footer .Contenido > span {
+    padding: 0px 245px;
+}
+
+body .Footer .Contenido .Button {
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    padding: 0px;
+    padding-left: 24px;
+}
+
+body .Footer .Contenido .Button > h6 {
+    color: #00000050;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 16px;
+}
+
+body .Footer .Contenido .Button > p {
+    background-color: rgb(92, 92, 92);
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > p:hover {
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 14px 38px;
+}
+
+body .Footer .Contenido .Button > span {
+    padding-left: 240px;
+}
+
+body .Center {
+    background: black;
+    display: flex;
+}
+
+body .Center .Redes {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Center .Redes > span {
+    padding: 0px 20px;
+    padding-bottom: 60px;
+}
+
+body .Copyright {
+    background: rgb(92, 92, 92);
+    color: #ffffff;
+    margin: 0%;
+    text-align: center;
+    padding: 24px 0px;
+}
